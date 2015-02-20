@@ -1,0 +1,23 @@
+{
+  "name": "string-recognizer",
+  "version": "0.0.1",
+  "description": "toy finite state machine",
+  "main": "stringRecognizer.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/discreteinfinity/string-recognizer.git"
+  },
+  "author": "christian mutikainen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/discreteinfinity/string-recognizer/issues"
+  },
+  "homepage": "https://github.com/discreteinfinity/string-recognizer",
+  "dependencies": {
+    "lodash": "^3.2.0",
+    "mocha": "^2.1.0"
+  }
+}
