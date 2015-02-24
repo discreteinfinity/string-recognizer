@@ -17,3 +17,16 @@ describe('string-recognizer', function(){
         })
     })
 });
+
+describe('string-recognizer', function(){
+    describe('#fsm()', function(){
+
+        it("should return 'error' ", function(){
+            var fsm = FSM('cat');
+
+            assert.equal(1, fsm('c'));
+            assert.equal(2, fsm('a'));
+            assert.equal('error', fsm('k'));
+        })
+    })
+});
